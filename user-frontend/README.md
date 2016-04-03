@@ -11,6 +11,9 @@
 1. Run `bower install` to install client-side dependencies
 1. Use [generator-ng-poly](https://github.com/dustinspecker/generator-ng-poly) to create additional components
 
+## Run
+- Use `gulp dev` to run frontend application
+
 ## Gulp tasks
 - Run `gulp build` to compile assets
 - Run `gulp dev` to run the build task and setup the development environment
