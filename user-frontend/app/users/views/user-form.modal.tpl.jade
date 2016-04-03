@@ -1,0 +1,15 @@
+md-dialog
+    md-toolbar
+        div.md-toolbar-tools
+            h2 {{formDialogCtrl.title}}
+            span(flex)
+            md-button.md-icon-button(ng-click='formDialogCtrl.cancel()')
+                md-icon.close &#10006;
+    md-dialog-content
+        div.md-dialog-content
+            form
+                formly-form(model="formDialogCtrl.model" fields="formDialogCtrl.fields")
+    md-dialog-actions
+        md-button(ng-click='formDialogCtrl.cancel()') Cancel
+        span(flex)
+        md-button(ng-click='formDialogCtrl.submit()') Submit
