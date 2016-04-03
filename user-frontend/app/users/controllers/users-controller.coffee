@@ -25,6 +25,7 @@ class UsersCtrl
 
       @openAddDialog = openAddDialog
       @openEditDialog = openEditDialog
+      @delete = remove
 
       @load()
 
@@ -70,6 +71,9 @@ class UsersCtrl
           load()
         , ->
           load()
+    remove = (user) ->
+      UsersManager.delete(user['@id']).then ->
+        load()
 
     init()
 

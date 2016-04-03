@@ -88,4 +88,7 @@ angular
       update: (id, data) ->
         @transport.one(id).customPUT(_.pick(data, @updateObject))
 
+      delete: (id) ->
+        @transport.one(id).remove()
+
     UsersBase
