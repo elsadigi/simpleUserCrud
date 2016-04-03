@@ -1,4 +1,4 @@
-# UserCrud
+# simpleUserCrud frontend
 
 *Generated with [ng-poly](https://github.com/dustinspecker/generator-ng-poly/tree/v0.11.4) version 0.11.4*
 
